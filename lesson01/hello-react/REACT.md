@@ -10,11 +10,16 @@ yarn start
 
 ## Basic term
 
-1. Component
-2. Virtual DOM
-3. Props
-4. State
-5. Event
+    [x] Component
+    [x] Virtual DOM
+    [x] Properties (props)
+    [x] State (state)
+    [x] Event
+    [x] Component Lifecycle
+
+## Component Lifecycle
+
+![React Component Lifecycle](https://images3.russianblogs.com/702/dc/dc3f4aaeab709259d3143072755f5cce.JPEG)
 
 ## Usefull links
 

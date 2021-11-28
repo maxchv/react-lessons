@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Clock from "./components/Clock";
 import { SimpleHello, FunctionalComponentHelloWorld, ClassComponentHelloWorld } from './HelloWorld';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <ClassComponentHelloWorld text="It is component based on class" />,
+  <>
+    <ClassComponentHelloWorld text="It is component based on class" />
+    <Clock />
+  </>,
   document.getElementById('root')
 );
 
