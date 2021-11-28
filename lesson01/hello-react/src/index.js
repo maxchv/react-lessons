@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { SimpleHello, FunctionalComponentHelloWorld, ClassComponentHelloWorld } from './HelloWorld';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+    // {/* <App /> */}
+  //  SimpleHello,
+  // <FunctionalComponentHelloWorld text='Hello ReactJS World' />,
+  <ClassComponentHelloWorld text="It is component based on class" />,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 
