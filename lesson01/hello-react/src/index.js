@@ -6,12 +6,7 @@ import { SimpleHello, FunctionalComponentHelloWorld, ClassComponentHelloWorld } 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  // <React.StrictMode>
-    // {/* <App /> */}
-  //  SimpleHello,
-  // <FunctionalComponentHelloWorld text='Hello ReactJS World' />,
   <ClassComponentHelloWorld text="It is component based on class" />,
-  // </React.StrictMode>,
   document.getElementById('root')
 );
 
